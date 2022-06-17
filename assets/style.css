@@ -4,12 +4,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, p {
+    color: #3e4444;
+    border: 2px solid lightcoral;
+    background-color: lightcoral;
+    border-radius: 10px 5px;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(177, 225, 255);
+    background-color: #c4b7a6;
 }
 
 button {
@@ -17,7 +24,7 @@ button {
     width: 40px;
     border-radius: 50%;
     border: 2px solid lightcoral;
-    background-color: rgb(241, 214, 214);
+    background-color: #e6e2d3;
     color: lightcoral;
     font-size: 16pt;
     font-weight: 600;
